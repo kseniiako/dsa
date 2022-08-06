@@ -1,2 +1,1 @@
-# dsa
-Data Structures and Algorithms practice/Leetcode problems
+# Data Structures and Algorithms Practice/Leetcode Problems
