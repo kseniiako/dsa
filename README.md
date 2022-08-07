@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Practice/Leetcode Problems
 
-# Note: as of now, this readme is a work in progress! I haven't added most solved problems to it yet, I'll correct this ASAP. There are so many files in this repo to go through :)
+# Note: as of now, this readme is a work in progress! I haven't added most solved problems (files in this repo) to the list yet, but I'm working on it :)
 
 A collection of problems that I solved to learn and practice data structures and algorithms. Most problems here come from [Leetcode](http://leetcode.com), the names and numbers are provided in some cases. For every problem, I do my best to maximize efficiency (thinking in terms of time/space complexity) and provide alternative implementations that offer interesting trade-offs. For this reason, a lot of the files contain several functions that either do the same thing in different ways, or solve variations of the same problem. The solutions are commented and explained to the best of my ability. I try and add notes and provide main takeaways from solving each problem.
 
