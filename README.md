@@ -1,5 +1,7 @@
 # Data Structures and Algorithms Practice/Leetcode Problems
 
+# Note: as of now, this readme is a work in progress! I haven't added most solved problems to it yet, I'll correct this ASAP. There are so many files in this repo to go through :)
+
 A collection of problems that I solved to learn and practice data structures and algorithms. Most problems here come from [Leetcode](http://leetcode.com), the names and numbers are provided in some cases. For every problem, I do my best to maximize efficiency (thinking in terms of time/space complexity) and provide alternative implementations that offer interesting trade-offs. For this reason, a lot of the files contain several functions that either do the same thing in different ways, or solve variations of the same problem. The solutions are commented and explained to the best of my ability. I try and add notes and provide main takeaways from solving each problem.
 
 Currently I'm using Python3 for DSA practice. I believe Python is great for writing readable, clear solutions that allow one to focus on the algorithmic nature of a problem rather than implementation details. However, as I prefer C/C++ for my other projects, I am looking forward to adding more C/C++ implementations. There are a lot of problems where the differences between Python and C/C++ code might be non-trivial, and solving those in C/C++ would be an interesting and useful experience for me.
