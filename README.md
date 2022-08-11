@@ -51,7 +51,8 @@ Currently I'm using Python3 for DSA practice. I believe Python is great for writ
 ## Miscellaneous
 1. [English Ruler](https://github.com/brasssmonkey/dsa/blob/main/EnglishRuler.py): elementary algorithm that prints out an english ruler in your terminal.
 2. [Find The Duplicate Number in an Array Using Floyd's Cycle-Finding Algorithm](https://github.com/brasssmonkey/dsa/blob/main/floydsFindDup.py): a very interesting alternative solution to the findDuplicate problem.
-3. [Fibonacci Numbers](https://github.com/brasssmonkey/dsa/blob/main/goodFib.py): an efficient algorithm to generate Fibonacci numbers.
+3. [Fibonacci Numbers 1 (recursive only)](https://github.com/brasssmonkey/dsa/blob/main/goodFib.py), [Fibonacci Numbers 2 (recursive and iterative)](https://github.com/brasssmonkey/dsa/blob/main/fibonacci.py): recursive and iterative versions of an O(n) rime algorithm to generate nth Fibonacci number. I'm proud of the iterative one, lol!
+
 
 
 ## In Progress
