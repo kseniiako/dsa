@@ -3,6 +3,9 @@
 # LC 509
 
 class Solution:
+    # Avoiding exponential time in fibonacci numbers generation
+    # by using memoization.
+    
     def fib(self, n):
         def fib_help(n):
             if n == 0:
@@ -34,7 +37,7 @@ class Solution:
         if n == 1:
             return nMinusOne
 
-        for x in range(2, n):
+        for _ in range(2, n):
             nMinusOne, nMinusTwo = nMinusOne + nMinusTwo, nMinusOne
 
         return nMinusOne + nMinusTwo
