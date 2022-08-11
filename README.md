@@ -11,11 +11,13 @@ Currently I'm using Python3 for DSA practice. I believe Python is great for writ
 2. [Invert Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/InvertBtree.py): an iterative algorithm to invert a binary tree.
 3. [Find Lowest Common Ancestor of Two Nodes in a Binary Search Tree](https://github.com/brasssmonkey/dsa/blob/main/LowestCommonAncestor.py)
 4. [Maximum Depth of a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/MaxDepth.py)
+5. [Right Side View of a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/treeRightSideView.py): very cool question! I wrote three solutions; they all depend on BFS for level order traversal, but employ different mechanisms to keep track of what level we are currently on.
 
 ## Binary Search
 1. [Koko Eating Bananas](https://github.com/brasssmonkey/dsa/blob/main/Koko.py): very neat problem! My take on an efficient solution utilizes binary search.
 2. [Basic Binary Search 1](https://github.com/brasssmonkey/dsa/blob/main/binarySearchLC.py), [Basic Binary Search 2](https://github.com/brasssmonkey/dsa/blob/main/binarySearch.py)
 3. [Find The Duplicate Number in an Array Using Binary Search](https://github.com/brasssmonkey/dsa/blob/main/findDupbinSearch.py)
+4. [Search Rotated Sorted Array](https://github.com/brasssmonkey/dsa/blob/main/searchRotatedArray.py): a very fun quesion that builds up on binary search concepts with a small twist.
 
 ## Bitwise Operations
 1. [Sum Two Integers Without Using + or -](https://github.com/brasssmonkey/dsa/blob/main/binarySum.py)
