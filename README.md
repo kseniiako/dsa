@@ -12,6 +12,7 @@ Currently I'm using Python3 for DSA practice. I believe Python is great for writ
 3. [Find Lowest Common Ancestor of Two Nodes in a Binary Search Tree](https://github.com/brasssmonkey/dsa/blob/main/LowestCommonAncestor.py)
 4. [Maximum Depth of a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/MaxDepth.py)
 5. [Right Side View of a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/treeRightSideView.py): very cool question! I wrote three solutions; they all depend on BFS for level order traversal, but employ different mechanisms to keep track of what level we are currently on.
+6. [Level Order Traversal of a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/levelOrderTraversal.py): predictably, a BFS-based algorithm.
 
 ## Binary Search
 1. [Koko Eating Bananas](https://github.com/brasssmonkey/dsa/blob/main/Koko.py): very neat problem! My take on an efficient solution utilizes binary search.
