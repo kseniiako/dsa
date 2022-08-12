@@ -7,7 +7,7 @@ A collection of problems that I solved to learn and practice data structures and
 Currently I'm using Python3 for DSA practice. I believe Python is great for writing readable, clear solutions that allow one to focus on the algorithmic nature of a problem rather than implementation details. However, as I prefer C/C++ for my other projects, I am looking forward to adding more C/C++ implementations. There are a lot of problems where the differences between Python and C/C++ code might be non-trivial, and solving those in C/C++ would be an interesting and useful experience for me.
 
 ## [Array to Tree and Tree To Array Converter](https://github.com/brasssmonkey/dsa/blob/main/arrayBasedTree.py)
-This is a pair of functions that allow conversion between standard (root-based) binary tree representation and a representation of a binary tree as an array of node values, where you can determine a node's parents and children from its position in the array. A very helpful tool for testing and debugging functions that work with tree-based structures!
+This is a pair of functions that allow conversion between standard (root-based) binary tree representation and a representation of a binary tree as an array of the values of its nodes, where you can determine a node's parents and children from its position in the array. A very helpful tool for testing and debugging functions that work with binary tree-based structures!
 
 ## Trees
 1. [Check if A Binary Tree Is Balanced](https://github.com/brasssmonkey/dsa/blob/main/BalancedBinTree.py): several different approaches, learned a lot with this one!
