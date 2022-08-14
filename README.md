@@ -23,7 +23,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 2. [Basic Binary Search 1](https://github.com/brasssmonkey/dsa/blob/main/binarySearchLC.py), [Basic Binary Search 2](https://github.com/brasssmonkey/dsa/blob/main/binarySearch.py)
 3. [Find The Duplicate Number in an Array Using Binary Search](https://github.com/brasssmonkey/dsa/blob/main/findDupbinSearch.py)
 4. [Search Rotated Sorted Array](https://github.com/brasssmonkey/dsa/blob/main/searchRotatedArray.py): a very fun quesion that builds up on binary search concepts with a small twist.
-5. [Find Minimum in Rotated Sorted Array](https://github.com/brasssmonkey/dsa/blob/main/minInRotatedArray.py): an easier version of the previous problem.
+5. [Find Minimum in Rotated Sorted Array](https://github.com/brasssmonkey/dsa/blob/main/minInRotatedArray.py): an easier version of the previous problem. The file contains two slightly different solutions, the second one is pretty clever: it pre-saves potential output values to potentially speed up the search (narrow down future iterations).
 
 ## Bitwise Operations
 1. [Sum Two Integers Without Using + or -](https://github.com/brasssmonkey/dsa/blob/main/binarySum.py)
