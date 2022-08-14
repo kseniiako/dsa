@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Practice/Leetcode Problems
 
-## Note: As of now, this readme is a work in progress! I haven't added most solved problems (files in this repo) to the list yet, but I'm working on it :)
+## Note: As of now, this readme is a work in progress! I haven't added many solved problems (files in this repo) to the list yet, but I'm working on it :)
 
 A collection of problems that I solved to learn and practice data structures and algorithms. Most problems here come from [Leetcode](http://leetcode.com), the names and numbers are provided in some cases. For every problem, I do my best to maximize efficiency (thinking in terms of time/space complexity) and provide alternative implementations that offer interesting trade-offs. For this reason, a lot of the files contain several functions that either do the same thing in different ways, or solve variations of the same problem. The solutions are commented and explained to the best of my ability. I try and add notes and provide main takeaways from solving each problem.
 
@@ -41,7 +41,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 
 ## Dynamic Programming
 1. [Find Max Subarray](https://github.com/brasssmonkey/dsa/blob/main/MaxSub.py): within an array, find a contiguous subarray that sums up to maximum value.
-2. 
+2. [Climbing Stairs](https://github.com/brasssmonkey/dsa/blob/main/climbingStairs.py): classic simple dynamic programming problem which turns out to be the fibonacci sequence in disguise.
 
 ## Arrays
 1. [Is This String a Valid Palindrome?](https://github.com/brasssmonkey/dsa/blob/main/ValPal.py)
@@ -58,7 +58,5 @@ This is a pair of functions that allow conversion between standard (root-based) 
 1. [English Ruler](https://github.com/brasssmonkey/dsa/blob/main/EnglishRuler.py): elementary algorithm that prints out an english ruler in your terminal.
 2. [Find The Duplicate Number in an Array Using Floyd's Cycle-Finding Algorithm](https://github.com/brasssmonkey/dsa/blob/main/floydsFindDup.py): a very interesting alternative solution to the findDuplicate problem.
 3. [Fibonacci Numbers 1 (recursive only)](https://github.com/brasssmonkey/dsa/blob/main/goodFib.py), [Fibonacci Numbers 2 (recursive and iterative)](https://github.com/brasssmonkey/dsa/blob/main/fibonacci.py): recursive and iterative versions of an O(n) time memoization-based algorithm to generate nth Fibonacci number. I'm proud of the iterative one, lol!
-
-
 
 ## In Progress
