@@ -44,7 +44,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 2. [Climbing Stairs](https://github.com/brasssmonkey/dsa/blob/main/climbingStairs.py): classic simple dynamic programming problem which turns out to be the fibonacci sequence in disguise.
 3. [Min Cost Climbing Stairs](https://github.com/brasssmonkey/dsa/blob/main/minCostClimbingStairs.py): similar to Climbing Stairs, but instead of keeping track of the number of different options we keep track of the total cost of climbing (a cost is tied to each step).
 4. [House Robber](https://github.com/brasssmonkey/dsa/blob/main/houseRobber.py): an amazing problem that allowed me to learn more about dynamic programming and memoization. It is simple but versatile, and the diversity of possible solutions makes one thing about trade-offs. Three solutions (exponential-time brute force, recursive with memoization, and dynamic programming iterative) are provided.
-
+5. [House Robber II](https://github.com/brasssmonkey/dsa/blob/main/houseRobberII.py): a circular spin on House Robber problem.
 ## Arrays
 1. [Is This String a Valid Palindrome?](https://github.com/brasssmonkey/dsa/blob/main/ValPal.py)
 2. [Find The Sum of All Elements in an Array](https://github.com/brasssmonkey/dsa/blob/main/binaryListsum.py): this solution uses binary recursion to optimize space usage.
