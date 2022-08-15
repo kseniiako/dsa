@@ -53,6 +53,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 
 ## Greedy Algorithms
 1. [Jump Game](https://github.com/brasssmonkey/dsa/blob/main/jumpGame.py): a fun and easy classic
+2, [Jump Game II](https://github.com/brasssmonkey/dsa/blob/main/jumpGameII.py): another fun algorithm that looks like it calls for dynamic programming, but can be solved in O(n) time using a greedy approach with a breadth-first search heuristic.
 
 ## Hashmaps
 1. 

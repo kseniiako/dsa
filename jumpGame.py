@@ -16,13 +16,13 @@ class Solution:
         # starting with the destination itself (to
         # account for single-element arrays), iterate backwards
         # over the array.
-        for x in range(len(arr)-1, -1, -1):
+        for i in range(len(arr)-1, -1, -1):
+
             # we will shift the goalpost of destination
             # to ith node if we know for sure that we can reach
             # the destination if starting from ith node.
-
-            if x+arr[x] >= destination:
-                destination = x
+            if i+arr[i] >= destination:
+                destination = i
 
         # If destination has shifted to 0, this means we can traverse
         # the whole array by jumping. Return True. Otherwise, return false.
