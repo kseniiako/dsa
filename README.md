@@ -52,6 +52,9 @@ This is a pair of functions that allow conversion between standard (root-based) 
 3. [Find The Duplicate Number in an Array](https://github.com/brasssmonkey/dsa/blob/main/findDup.py): a LOT of possibilities with this problem. Multiple alternative solutions are provided.
 4 [Top K Frequent Elements](https://github.com/brasssmonkey/dsa/blob/main/topKFrequentElements.py): a very cool problem that can be approached in a variety of ways. I have two implementations using a heap and bucket sort.
 
+## Heaps
+1. [Last Stone Weight](https://github.com/brasssmonkey/dsa/blob/main/lastStoneWeight.py): a simple heap-based algorithm that utilizes a little trick for making maxheaps using heapq.
+
 ## Greedy Algorithms
 1. [Jump Game](https://github.com/brasssmonkey/dsa/blob/main/jumpGame.py): a fun and easy classic
 2, [Jump Game II](https://github.com/brasssmonkey/dsa/blob/main/jumpGameII.py): another fun algorithm that looks like it calls for dynamic programming, but can be solved in O(n) time using a greedy approach with a breadth-first search heuristic.
