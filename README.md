@@ -38,7 +38,6 @@ This is a pair of functions that allow conversion between standard (root-based) 
 1. [Reverse Singly Linked List](https://github.com/brasssmonkey/dsa/blob/main/LLreverse_train.py)
 2. [Copy Random List](https://github.com/brasssmonkey/dsa/blob/main/copyRandomList.py): copy a linked list where an extra random pointer is attached to each node.
 
-
 ## Dynamic Programming
 1. [Find Max Subarray](https://github.com/brasssmonkey/dsa/blob/main/MaxSub.py): within an array, find a contiguous subarray that sums up to maximum value.
 2. [Climbing Stairs](https://github.com/brasssmonkey/dsa/blob/main/climbingStairs.py): classic simple dynamic programming problem which turns out to be the fibonacci sequence in disguise.
@@ -56,8 +55,8 @@ This is a pair of functions that allow conversion between standard (root-based) 
 1. [Jump Game](https://github.com/brasssmonkey/dsa/blob/main/jumpGame.py): a fun and easy classic
 2, [Jump Game II](https://github.com/brasssmonkey/dsa/blob/main/jumpGameII.py): another fun algorithm that looks like it calls for dynamic programming, but can be solved in O(n) time using a greedy approach with a breadth-first search heuristic.
 
-## Hashmaps
-1. 
+## Intervals
+1. [Meetings Rooms](https://github.com/brasssmonkey/dsa/blob/main/meetingRooms.py): simple problem: sorting an array of arrays and checking that a condition is fulfilled in the sorted array.
 
 ## Stacks
 1. [Evaluate Reverse Polish Notation](https://github.com/brasssmonkey/dsa/blob/main/evaluateRPN.py)
