@@ -21,6 +21,13 @@ class TimeMap:
         else:
             self.dct[key]['values'].append(value)
             self.dct[key]['timestamps'].append(timestamp)
+
+        # Dictionary lookup: O(1) time. Appending to array: O(1) time.
+        # This method runs in O(1) time. 
+
+        # No extra space is used (we only use space to store
+        # the database, which is essential and not an overhead
+        # cost). O(1) space.
     
     def get(self, key, timestamp):
         # Return the latest value at given key
@@ -70,6 +77,12 @@ class TimeMap:
             return self.dct[key]["values"][result]
         
         return result
+
+        # A dictionary lookup is O(1) time. Binary search runs
+        # in O(log n) time. Therefore, get runs in O(log n) time.
+
+        # We only create a constant number of extra variables: O(1)
+        # space.
 
 if __name__ == "__main__":
     myTimeMap = TimeMap()
