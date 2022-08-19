@@ -53,10 +53,11 @@ This is a pair of functions that allow conversion between standard (root-based) 
 1. [Is This String a Valid Palindrome?](https://github.com/brasssmonkey/dsa/blob/main/ValPal.py)
 2. [Find The Sum of All Elements in an Array](https://github.com/brasssmonkey/dsa/blob/main/binaryListsum.py): this solution uses binary recursion to optimize space usage.
 3. [Find The Duplicate Number in an Array](https://github.com/brasssmonkey/dsa/blob/main/findDup.py): a LOT of possibilities with this problem. Multiple alternative solutions are provided.
-4 [Top K Frequent Elements](https://github.com/brasssmonkey/dsa/blob/main/topKFrequentElements.py): a very cool problem that can be approached in a variety of ways. I have two implementations using a heap and bucket sort.
+4. [Top K Frequent Elements](https://github.com/brasssmonkey/dsa/blob/main/topKFrequentElements.py): a very cool problem that can be approached in a variety of ways. I have two implementations using a heap and bucket sort.
 
 ## Heaps
 1. [Last Stone Weight](https://github.com/brasssmonkey/dsa/blob/main/lastStoneWeight.py): a simple heap-based algorithm that utilizes a little trick for making maxheaps using heapq.
+2. [K Closest Points to Origin](https://github.com/brasssmonkey/dsa/blob/main/kClosestPointstoOrigin.py): a very fun problem that got me thinking about heaps and tweaking heap-based approaches. Leetcode article suggests an O(nlogn) sorting-based solution, too, but since we don't care about the order of outputs, full sorting is a waste of time; heaps are faster and more interesting to work with (imho, in this problem). However, the article also suggests a divide-and-conquer quickselect approach, which is very intriguing and more efficient on certain inputs. It is implemented [insert reference/link one implemented].
 
 ## Greedy Algorithms
 1. [Jump Game](https://github.com/brasssmonkey/dsa/blob/main/jumpGame.py): a fun and easy classic
