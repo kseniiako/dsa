@@ -55,9 +55,12 @@ This is a pair of functions that allow conversion between standard (root-based) 
 3. [Find The Duplicate Number in an Array](https://github.com/brasssmonkey/dsa/blob/main/findDup.py): a LOT of possibilities with this problem. Multiple alternative solutions are provided.
 4. [Top K Frequent Elements](https://github.com/brasssmonkey/dsa/blob/main/topKFrequentElements.py): a very cool problem that can be approached in a variety of ways. I have two implementations using a heap and bucket sort.
 
+## Quicksort/Quickselect
+1. [K Closest Points to Origin](https://github.com/brasssmonkey/dsa/blob/main/kClosestDivandConq.py): a quickselect-based solution for the problem of finding k smallest distances from [0, 0] for a set of points on a 2D plane. Average runtime is O(n). 
+
 ## Heaps
 1. [Last Stone Weight](https://github.com/brasssmonkey/dsa/blob/main/lastStoneWeight.py): a simple heap-based algorithm that utilizes a little trick for making maxheaps using heapq.
-2. [K Closest Points to Origin](https://github.com/brasssmonkey/dsa/blob/main/kClosestPointstoOrigin.py): a very fun problem that got me thinking about heaps and tweaking heap-based approaches. Leetcode article suggests an O(nlogn) sorting-based solution, too, but since we don't care about the order of outputs, full sorting is a waste of time; heaps are faster and more interesting to work with (imho, in this problem). However, the article also suggests a divide-and-conquer quickselect approach, which is very intriguing and more efficient on certain inputs. It is implemented [insert reference/link one implemented].
+2. [K Closest Points to Origin](https://github.com/brasssmonkey/dsa/blob/main/kClosestPointstoOrigin.py): a very fun problem that got me thinking about heaps and tweaking heap-based approaches. Leetcode article suggests an O(nlogn) sorting-based solution, too, but since we don't care about the order of outputs, full sorting is a waste of time; heaps are faster and more interesting to work with (imho, in this problem). However, the article also suggests a divide-and-conquer quickselect approach, which is very intriguing and more efficient on certain inputs. It is implemented [here](https://github.com/brasssmonkey/dsa/blob/main/kClosestDivandConq.py) and added to the Quicksort/Quickselect section of this readme.
 
 ## Greedy Algorithms
 1. [Jump Game](https://github.com/brasssmonkey/dsa/blob/main/jumpGame.py): a fun and easy classic
