@@ -25,7 +25,7 @@ class Solution:
                 destination = i
 
         # If destination has shifted to 0, this means we can traverse
-        # the whole array by jumping. Return True. Otherwise, return false.
+        # the whole array by jumping. Return true. Otherwise, return false.
         return destination == 0
 
 if __name__ == "__main__":
