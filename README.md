@@ -49,6 +49,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 6. [Longest Consecutive Sequence](https://github.com/brasssmonkey/dsa/blob/main/longestConsecutiveSequence.py): a good problem to learn to think about intelligent sequence building.
 7. [Longest Increasing Subsequence](https://github.com/brasssmonkey/dsa/blob/main/longestIncreasingSubsequence.py): one of those cases where I didn't know how to approach a problem and reading other's explanations/analyses taught me a lot. A LOT! Dynamic Programming simply rocks :)
 8. [Max Product Subarray](https://github.com/brasssmonkey/dsa/blob/main/maxProductSubarray.py): a great problem to try and think more creatively about the intermediate values which you choose to store in a dynamic programming solution.
+9. [Coin Change](https://github.com/brasssmonkey/dsa/blob/main/coinChange.py): an absolutely epic dynamic programming problem. The O(amount * no_of_denominations) implementation truly highlights the logic behind many DP problems: optimizing the traversal of a decision tree.
 
 ## Arrays
 1. [Is This String a Valid Palindrome?](https://github.com/brasssmonkey/dsa/blob/main/ValPal.py)
