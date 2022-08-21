@@ -15,9 +15,9 @@ class Solution:
         return max_subarray
 
     def Kadanes(self, nums):
-        # Kadanes algorithm: based on the idea that no 
-        # subarray that, when its sum is added to the current number,
-        # brings down the value of a current number is worth keeping.
+        # Kadanes algorithm: based on the idea that no subarray that
+        # brings down the value of a current number when its sum is 
+        # added to the current number is worth keeping.
         # So no subarray with negative value is worth keeping. What this means
         # is that if there are some positive numbers in the array,
         # then the output will be a positive subarray (of length
