@@ -80,6 +80,14 @@ class Solution:
 
     def numDecodings2(self, s):
         # A sleeker, shorter solution from Neetcode
+
+        # Dictionary: a smart solution to not worry about
+        # default value selection. Moreover, we set "nonexistent"
+        # value at (last index + 1) to 1 so that we can perform
+        # dp[i] += dp[i+2] without worrying about reaching a nonexistent
+        # position in the array. It makes sense since 1 is the "default"
+        # number of options we suppose exists for a string encoding, and 
+        # this algorithm is designed to handle other, particular cases.
         dp = {len(s): 1}
 
         for i in range(len(s)-1, -1, -1):
@@ -109,6 +117,58 @@ class Solution:
     # Both solutions have O(n) runtime (one pass over the array)
     # and use O(n) space (to store the dp array).
 
+    def numDecodingsMemo(self, s):
+        # A top-down approach using memoization
+        dp = {len(s) : 1}
+
+        def dfs(i):
+            # Base cases: return 0 for 0,
+            # existing value if it is present.
+            if i in dp:
+                return dp[i]
+            if s[i] == "0":
+                return 0
+
+            res = dfs(i+1)
+            if (i + 1 < len(s) and (s[i] == "1" or \
+                (s[i] == "2" and s[i+1]<="6"))):
+                res += dfs(i+2)
+            
+            dp[i] = res
+            return res
+        
+        return dfs(0)
+
+        # O(n) time, O(n) space — just a slightly different
+        # logic for getting from intermediate to final result.
+
+    def numDecodingsFin(self, s):
+        # This is a variation on the dynamic programming approach
+        # that uses O(1) space for a constant number of values instead
+        # of O(n) space for an n-sized array.
+
+        # From the previous solutions it is obvious that we only need to
+        # keep track of values dp[i+1] and dp[i+2] at index i: one and two steps
+        # to the right of current value. So we initialize two variables to
+        # hold that data, and avoid allocating a whole array.
+
+        oneStep = twoSteps = 1
+        for i in range(len(s)-1, -1, -1):
+            if s[i] == "0":
+                cur = 0
+            else:
+                cur = oneStep
+            
+            if (i < len(s) - 1) and (s[i] == "1" \
+                or (s[i] == "2" and s[i+1] <= "6")):
+                cur += twoSteps
+
+            oneStep, twoSteps = cur, oneStep
+        
+        return oneStep
+
+            
+
 
 if __name__ == "__main__":
     my = Solution()
@@ -124,4 +184,16 @@ if __name__ == "__main__":
     print(my.numDecodings2("06"))
     print(my.numDecodings2("2101"))
     print(my.numDecodings2("10"))
+
+    print(my.numDecodingsMemo("12"))
+    print(my.numDecodingsMemo("226"))
+    print(my.numDecodingsMemo("06"))
+    print(my.numDecodingsMemo("2101"))
+    print(my.numDecodingsMemo("10"))
+
+    print(my.numDecodingsFin("12"))
+    print(my.numDecodingsFin("226"))
+    print(my.numDecodingsFin("06"))
+    print(my.numDecodingsFin("2101"))
+    print(my.numDecodingsFin("10"))
             
