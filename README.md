@@ -17,6 +17,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 5. [Right Side View of a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/treeRightSideView.py): very cool question! I wrote three solutions; they all depend on BFS for level order traversal, but employ different mechanisms to keep track of what level we are currently on.
 6. [Level Order Traversal of a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/levelOrderTraversal.py): predictably, a BFS-based algorithm.
 7. [Count Good Nodes in a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/countGoodNodes.py): fun algorithm that uses DFS.
+8. [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/brasssmonkey/dsa/blob/main/constructTree.py): a terrific problem about tree representations and construction that gave me a lot of experience analyzing time/space complexity and iteratively improving on an existing naive solution.
 
 ## Binary Search
 1. [Koko Eating Bananas](https://github.com/brasssmonkey/dsa/blob/main/Koko.py): very neat problem! My take on an efficient solution utilizes binary search.
