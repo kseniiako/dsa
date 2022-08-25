@@ -72,17 +72,19 @@ class Solution:
         # O(n) time to build a stack. O(n) calls to buildHelper. Together, 
         # calls to buildHelper run in O(n^2) time since each call entails
         # an iteration through progressively smaller slices of n-sized inorder array. 
-        # (In the worst case scenario, next slice is only one element shorted
-        # than the previous one. In the best case scenario, the slice is constantly
+        # (In the worst case scenario, next slice is only one element shorter
+        # than the previous one, and time complexity for completing all recursive calls
+        # is O(n^2). In the best case scenario, the slice is constantly
         # halved and the time complexity for all recursive calls becomes O(nlogn).) 
         # Therefore, time complexity is O(n^2).
 
         # O(n) space for preorder stack.
         # Function call stack is as big as tree height, which makes it use O(logn) 
         # space in the average case and O(n) space in the worst case. However,
-        # with the sizes of the arguments passed to each function (preorder stack +
-        # slice of inorder array), space use of each call is O(n^2). 
-        # Total space complexity is therefore O(n^3)+O(n) -> O(n^3).
+        # given the sizes of the arguments passed to buildHelper (we pass slices of 
+        # n-sized inorder array to buildHelper, see more on that above), space use of each
+        # call is O(n). Hence all the recursive calls taken together need O(n^2) space.
+        # Total space complexity is therefore O(n^2)+O(n) -> O(n^2).
 
         # Having to iterate through array slices in every call to buildHelper is a big 
         # slowdown. It is also a pain to save array slices in memory. The solution below 
