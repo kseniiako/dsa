@@ -2,7 +2,7 @@ from collections import deque
 from arrayBasedTree import treeToArray
 
 # Given two integer arrays representing the preorder and inorder
-# traversals of a binary tree, construct and return the binary tee.
+# traversals of a binary tree, construct and return the binary tree.
 
 # I love this problem so much! The three solutions below are
 # all variations on the same ideas, a result of tinkering with
@@ -14,7 +14,8 @@ from arrayBasedTree import treeToArray
 # as defined in the module arrayBasedTree that I wrote. (Available here: 
 # https://github.com/brasssmonkey/dsa/blob/main/arrayBasedTree.py).
 # This helps a lot in testing as it's easy to visualize your results.
-# Runtime/space use of treeToArray is not accounted for in the asymptotic analysis.
+# Note that runtime/space use of treeToArray is not accounted for in 
+# the asymptotic analysis.
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -71,12 +72,12 @@ class Solution:
 
         # O(n) time to build a stack. O(n) calls to buildHelper. Together, 
         # calls to buildHelper run in O(n^2) time since each call entails
-        # an iteration through progressively smaller slices of n-sized inorder array. 
+        # an iteration through progressively smaller slices of an n-sized inorder array. 
         # (In the worst case scenario, next slice is only one element shorter
         # than the previous one, and time complexity for completing all recursive calls
         # is O(n^2). In the best case scenario, the slice is constantly
         # halved and the time complexity for all recursive calls becomes O(nlogn).) 
-        # Therefore, time complexity is O(n^2).
+        # Therefore, total time complexity is O(n + n^2) -> O(n^2).
 
         # O(n) space for preorder stack.
         # Function call stack is as big as tree height, which makes it use O(logn) 
@@ -120,10 +121,11 @@ class Solution:
 
         return treeToArray(head)
 
-        # O(n) time (each of n calls to buildHelper runs in constant time, creating a 
-        # dictionary is also O(n) time).
+        # O(n) time. (Each of n calls to buildHelper runs in constant time -> total is
+        # O(n) time; creating a dictionary and stack is also O(n) time for each.)
         # O(n) worst-case, O(logn) average-case space complexity of the function call
-        # stack. O(n) space for the hashmap/dictoonary and O(n) space for the stack.
+        # stack (equal to tree height). O(n) space for the hashmap/dictionary and O(n)
+        # space for the stack.
 
         # Total: O(n) time, O(n) space.
 
