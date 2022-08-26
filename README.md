@@ -36,6 +36,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 1. [(Random) Singly-Linked List](https://github.com/brasssmonkey/dsa/blob/main/LL.py): an implementation of a singly-linked list class that helped me test and debug numerous linked list problems. This implementation supports an extra "random" pointer added to each node (I added this to help test the problem [Random Linked List]()). It is most definitely a work in progress: moving forward, I am planning to add sentinels, array representation of a link list (to simplify debugging), and more methods and features. For now, treat this as a bare-bones class for testing/debugging.
 2. [Kth Largest Element](https://github.com/brasssmonkey/dsa/blob/main/KthLargestElement.py): a heap-based class to get nth largest element in a stream. Very helpful problem for learning to think about streams.
 3. [Time-Based Key-Value Storage](https://github.com/brasssmonkey/dsa/blob/main/timeBasedKeyValueStore.py): a dictionary-based data structure that remembers when each value was added. Get method retrieves value that was current at a given time; its implementation relies on binary search.
+4. [Trie/Prefix Tree](https://github.com/brasssmonkey/dsa/blob/main/designTrie.py): a cool data structure that makes analyzing large dictionaries of words a breeze.
 
 ## Linked Lists
 1. [Reverse Singly Linked List](https://github.com/brasssmonkey/dsa/blob/main/LLreverse_train.py)
