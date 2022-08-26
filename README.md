@@ -54,11 +54,12 @@ This is a pair of functions that allow conversion between standard (root-based) 
 10. [Decode Ways](https://github.com/brasssmonkey/dsa/blob/main/waystoDecode.py): an amazing problem that explores ways to think about encodings and groupings within encodings and really trains one's edge-case-handling muscle. In the file there are four methods: first-try dynamic programming solution, refined/improved (mostly in terms of clarity and readability, the code is less bulky and redundant) dynamic programming solution, a memoization solution and constant-space dynamic-programming.
 11. [Partition Equal Subset Sum](https://github.com/brasssmonkey/dsa/blob/main/partitionEqualSubsetSum.py): a sweet problem that is all about caching. Helped me learn to think about reducing the runtime of problems that have O(2^n) decision trees/brute-force approaches: even if getting some of them to O(n) is impossible, we can get pretty good performance!
 
-## Arrays
+## Arrays/Hashmaps
 1. [Is This String a Valid Palindrome?](https://github.com/brasssmonkey/dsa/blob/main/ValPal.py)
 2. [Find The Sum of All Elements in an Array](https://github.com/brasssmonkey/dsa/blob/main/binaryListsum.py): this solution uses binary recursion to optimize space usage.
 3. [Find The Duplicate Number in an Array](https://github.com/brasssmonkey/dsa/blob/main/findDup.py): a LOT of possibilities with this problem. Multiple alternative solutions are provided.
 4. [Top K Frequent Elements](https://github.com/brasssmonkey/dsa/blob/main/topKFrequentElements.py): a very cool problem that can be approached in a variety of ways. I have two implementations using a heap and bucket sort.
+5. [Pairs of Songs with Total Duration Divisible by 60](https://github.com/brasssmonkey/dsa/blob/main/pairsofSongs.py): the kind of problem that is the flesh and blood of technical interviews for intern/new grad positions: Just Throw In A Hashmap!
 
 ## Quicksort/Quickselect
 1. [K Closest Points to Origin](https://github.com/brasssmonkey/dsa/blob/main/kClosestDivandConq.py): a quickselect-based solution for the problem of finding k smallest distances from [0, 0] for a set of points on a 2D plane. Average runtime is O(n). 
