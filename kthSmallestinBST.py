@@ -5,14 +5,17 @@
 
 from collections import deque
 
-# I wanted to use my arrayBasedTree module for testing, but unfortunately
+# UPDATE: arrayBasedTree module is patched, all the testing works (see below). arrayBasedTree now
+# handles None values correctly.
+
+# ~~I wanted to use my arrayBasedTree module for testing, but unfortunately
 # this problem was where my module proved insufficient/faulty. (I have to
 # and I am excited to update and patch it soon!) Basically, because my
 # arrayToTree function is designed to represent complete binary trees,
 # it stores nodes with value None instead of nothing in the place of non-
 # existent nodes in an incomplete tree. However, this should be a straightforward
-# fix. Meanwhile, I used the Leetcode environment for testing.
-# from arrayBasedTree import arrayToTree
+# fix. Meanwhile, I used the Leetcode environment for testing.~~
+from arrayBasedTree import arrayToTree
 
 # I love this function so much. It performs iterative depth-first search
 # on a tree (using a stack) to find the leftest node (the first node with 
@@ -64,5 +67,13 @@ class Solution:
 # O(h) space (for the stack). Note that the stack can only be as big
 # as tree height, which is O(logn) in the average case, and O(n) in
 # the worst case!
+
+if __name__ == "__main__":
+    my = Solution()
+    tree1 = arrayToTree([3,1,4,None,2])
+    print(my.kthSmallest(tree1, 1))
+
+    tree2 = arrayToTree([5,3,6,2,4,None,None,1])
+    print(my.kthSmallest(tree2, 3))
 
 

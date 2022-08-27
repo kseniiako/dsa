@@ -54,7 +54,16 @@ def treeToArray(root):
                 queue.append(TreeNode(None))
                 nones_count+=1
 
-    return out[:-lvl_size]
+    # now we're going to trim the tree and remove trailing
+    # none nodes (it is obvious that nodes not present in the
+    # tree at the last level are nonexistent)
+    out = out[:-lvl_size]
+
+    i = len(out)- 1
+    while not out[i] and i > -1:
+        i -= 1
+    return out[:i+1]
+
 
 def arrayToTree(arr):
     # given an array representing a complete binary tree
@@ -80,11 +89,13 @@ def arrayToTree(arr):
         pos_left = (2*cur_pos)+1
         pos_right = pos_left + 1
 
-        cur_node.left = TreeNode(arr[pos_left])
-        cur_node.right = TreeNode(arr[pos_right])
-
-        queue.append((cur_node.left, pos_left))
-        queue.append((cur_node.right, pos_right))
+        if pos_left < len(arr) and arr[pos_left]:
+            cur_node.left = TreeNode(arr[pos_left])
+            queue.append((cur_node.left, pos_left))
+        
+        if pos_right < len(arr) and arr[pos_right]:
+            cur_node.right = TreeNode(arr[pos_right])
+            queue.append((cur_node.right, pos_right))
     
     return root
         
@@ -108,6 +119,22 @@ if __name__ == "__main__":
     test1 = arrayToTree(array1)
     print(test1.val)
     print(treeToArray(test1))
+
+    array2 = [3,1,4,None,2]
+    test2 = arrayToTree(array2)
+    print(test2.val)
+    print(test2.left.val)
+    print(treeToArray(test2))
+
+    # The following line returns an AttributeError
+    # since we're trying to get the value of a nonexistent
+    # node (is is a None value in the list).
+    # print(arrayToTree(array2).left.left.val)
+
+    test3 = arrayToTree([5,3,6,2,4,None,None,1])
+    print(test3.val)
+    print(test3.right.val)
+    print(treeToArray(test3))
         
             
 
