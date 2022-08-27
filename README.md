@@ -7,7 +7,7 @@ A collection of problems that I solved to learn and practice data structures and
 Currently I'm using Python3 for DSA practice. I believe Python is great for writing readable, clear solutions that allow one to focus on the algorithmic nature of a problem rather than implementation details. However, as I prefer C/C++ for my other projects, I am looking forward to adding more C/C++ implementations. There are a lot of problems where the differences between Python and C/C++ code might be non-trivial, and solving those in C/C++ would be an interesting and useful experience for me.
 
 ## [Array to Tree and Tree To Array Converter](https://github.com/brasssmonkey/dsa/blob/main/arrayBasedTree.py)
-UPDATE: Bug found, more info [here](https://github.com/brasssmonkey/dsa/blob/main/kthSmallestinBST.py). To be fixed soon.
+UPDATE: The bug found while trying to use the module [here](https://github.com/brasssmonkey/dsa/blob/main/kthSmallestinBST.py) has now been successfully fixed.
 This is a pair of functions that allow conversion between standard (root-based) binary tree representation and a representation of a binary tree as an array of the values of its nodes, where you can determine a node's parents and children from its position in the array. A very helpful tool for testing and debugging functions that work with binary tree-based structures!
 
 ## Trees
@@ -19,7 +19,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 6. [Level Order Traversal of a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/levelOrderTraversal.py): predictably, a BFS-based algorithm.
 7. [Count Good Nodes in a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/countGoodNodes.py): fun algorithm that uses DFS.
 8. [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/brasssmonkey/dsa/blob/main/constructTree.py): a terrific problem about tree representations and construction that gave me a lot of experience analyzing time/space complexity and iteratively improving on an existing naive solution.
-9. [Kth Smallest Element in a BST](https://github.com/brasssmonkey/dsa/blob/main/kthSmallestinBST.py): a wonderful problem that highlights the importance/applications of inorder traversal. Testing my solution to this problem also helped me find a bug in Array-Based Tree module: to be fixed soon (approx 08/28/2022).
+9. [Kth Smallest Element in a BST](https://github.com/brasssmonkey/dsa/blob/main/kthSmallestinBST.py): a wonderful problem that highlights the importance/applications of inorder traversal. Testing my solution to this problem also helped me find a bug in Array-Based Tree module that has now been fixed.
 
 ## Binary Search
 1. [Koko Eating Bananas](https://github.com/brasssmonkey/dsa/blob/main/Koko.py): very neat problem! My take on an efficient solution utilizes binary search.

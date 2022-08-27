@@ -5,16 +5,18 @@
 
 from collections import deque
 
-# UPDATE: arrayBasedTree module is patched, all the testing works (see below). arrayBasedTree now
-# handles None values correctly.
+# UPDATE: arrayBasedTree module is patched, all the testing works (see below). 
+# arrayBasedTree now handles None values correctly.
 
-# <del>I wanted to use my arrayBasedTree module for testing, but unfortunately
+# (OUTDATED, PROBLEM HAS BEEN FIXED. This comment is left here for information
+# about potential caveats with array-to-tree converter design.) 
+# I wanted to use my arrayBasedTree module for testing, but unfortunately
 # this problem was where my module proved insufficient/faulty. (I have to
 # and I am excited to update and patch it soon!) Basically, because my
 # arrayToTree function is designed to represent complete binary trees,
 # it stores nodes with value None instead of nothing in the place of non-
 # existent nodes in an incomplete tree. However, this should be a straightforward
-# fix. Meanwhile, I used the Leetcode environment for testing.</del>
+# fix. Meanwhile, I used the Leetcode environment for testing.
 from arrayBasedTree import arrayToTree
 
 # I love this function so much. It performs iterative depth-first search
