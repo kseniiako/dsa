@@ -20,6 +20,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 7. [Count Good Nodes in a Binary Tree](https://github.com/brasssmonkey/dsa/blob/main/countGoodNodes.py): fun algorithm that uses DFS.
 8. [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/brasssmonkey/dsa/blob/main/constructTree.py): a terrific problem about tree representations and construction that gave me a lot of experience analyzing time/space complexity and iteratively improving on an existing naive solution.
 9. [Kth Smallest Element in a BST](https://github.com/brasssmonkey/dsa/blob/main/kthSmallestinBST.py): a wonderful problem that highlights the importance/applications of inorder traversal. Testing my solution to this problem also helped me find a bug in Array-Based Tree module that has now been fixed.
+10. [Validate Binary Search Tree](https://github.com/brasssmonkey/dsa/blob/main/validateBST.py): a good old-fashioned tree problem that I solved with a stack-based DFS.
 
 ## Binary Search
 1. [Koko Eating Bananas](https://github.com/brasssmonkey/dsa/blob/main/Koko.py): very neat problem! My take on an efficient solution utilizes binary search.
