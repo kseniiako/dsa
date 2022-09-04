@@ -82,6 +82,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 2. [Meeting Rooms II](https://github.com/brasssmonkey/dsa/blob/main/meetingRoomsII.py): a greedy algorithm for calculating the minimum necessary number of meeting rooms. This is a seemingly tricky problem that has a surprisingly clear and intuitive solution. (You know, as greedy algorithms tend to be :) ) 
 3. [Insert Interval](https://github.com/brasssmonkey/dsa/blob/main/insertInterval.py): a fun problem to start thinking about intervals.
 4. [Merge Intervals](https://github.com/brasssmonkey/dsa/blob/main/mergeIntervals.py): another interesting and approachable problem to think about the mechanics of merging.
+5. [Non-Overlapping Intervals](https://github.com/brasssmonkey/dsa/blob/main/nonOverlappingIntervals.py): fun problem that can be solved dynamically or greedily!
 
 ## Stacks
 1. [Evaluate Reverse Polish Notation](https://github.com/brasssmonkey/dsa/blob/main/evaluateRPN.py)
