@@ -61,4 +61,4 @@ if __name__ == "__main__":
 # User willye on leetcode phrased the greedy intuition very well:
 # if two intervals are overlapping, we want to remove the interval that has
 # the later end point — the later-ending interval will always overlap with
-# at least as many future intervals compared to the earlier-ending one.
+# at least as many future intervals as the earlier-ending one.
