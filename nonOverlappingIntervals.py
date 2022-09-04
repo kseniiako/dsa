@@ -62,3 +62,24 @@ if __name__ == "__main__":
 # if two intervals are overlapping, we want to remove the interval that has
 # the later end point — the later-ending interval will always overlap with
 # at least as many future intervals as the earlier-ending one.
+
+# Another possible solution is using dynamic programming! Let's say every element 
+# in the dp array stores max possible number of elements in the output array at this
+# index.
+
+# The recursive relationship is then dp[i+1] = max(dp[j]) + 1 such that jth interval 
+# and ith don't overlap, for all j <= i. However, since we need to check every j and 
+# there can be i-1 of eligible j intervals, the time complexity is O(n^2) for this approach.
+# This is an interval start-based dp approach.
+
+# We can also use an elegant interval end-based dp approach. We sort intervals by end time,
+# and dp[i] contains the max possible number of elements in the output array at i. dp[i] is the
+# max of (1 + dp[first non-overlapping interval as you look back in the array]) and dp[most recent
+# overlapping interval]. This recursive relationship illustrates the choice between adding new element
+# to output where it does not overlap and throwing out/ignoring the current element and taking max 
+# non-overlapping number of earlier ones.
+
+# Note how in the interval end-based approach we use the idea that if intevals
+# are sorted by end time and i<j<k, as long as kth element does not overlap with j, it cannot
+# overlap with any i.
+# This approach is also O(n^2) (two nested loops).
