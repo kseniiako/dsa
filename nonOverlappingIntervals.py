@@ -57,3 +57,8 @@ if __name__ == "__main__":
 # Idea (didn't work out for this particular problem, but generally fruitful):
 # add sentinel interval(that will 100% not result in a deletion)
 # to check last interval comfortably (without going out of bounds).
+
+# User willye on leetcode phrased the greedy intuition very well:
+# if two intervals are overlapping, we want to remove the interval that has
+# the later end point — the later-ending interval will always overlap with
+# at least as many future intervals compared to the earlier-ending one.
