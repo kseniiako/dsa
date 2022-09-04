@@ -60,6 +60,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 9. [Coin Change](https://github.com/brasssmonkey/dsa/blob/main/coinChange.py): an absolutely epic dynamic programming problem. The O(amount * no_of_denominations) implementation truly highlights the logic behind many DP problems: optimizing the traversal of a decision tree.
 10. [Decode Ways](https://github.com/brasssmonkey/dsa/blob/main/waystoDecode.py): an amazing problem that explores ways to think about encodings and groupings within encodings and really trains one's edge-case-handling muscle. In the file there are four methods: first-try dynamic programming solution, refined/improved (mostly in terms of clarity and readability, the code is less bulky and redundant) dynamic programming solution, a memoization solution and constant-space dynamic-programming.
 11. [Partition Equal Subset Sum](https://github.com/brasssmonkey/dsa/blob/main/partitionEqualSubsetSum.py): a sweet problem that is all about caching. Helped me learn to think about reducing the runtime of problems that have O(2^n) decision trees/brute-force approaches: even if getting some of them to O(n) is impossible, we can get pretty good performance!
+13. [Word Break](https://github.com/brasssmonkey/dsa/blob/main/wordBreak.py): a cool DP problem that was initially very tricky for me yet ultimately proved very enjoyable!
 
 ## Arrays/Hashmaps
 1. [Is This String a Valid Palindrome?](https://github.com/brasssmonkey/dsa/blob/main/ValPal.py)
