@@ -35,6 +35,9 @@ This is a pair of functions that allow conversion between standard (root-based) 
 3. [Count Set Bits in a Number](https://github.com/brasssmonkey/dsa/blob/main/countBits.py): several alternative solutions.
 4. [Find The Sum of Two Numbers Using Bitwise Operations](https://github.com/brasssmonkey/dsa/blob/main/getSum.py)
 
+## Backtracking
+1. [Word Search](https://github.com/brasssmonkey/dsa/blob/main/wordSearch.py): a very interesting problem that combines searching a grid (DFS-style seems more intuitive to me) and backtracking. My second, faster solution also uses hashing (tradeoff between speed and memory use).
+
 ## Implementations of Data Structures
 1. [(Random) Singly-Linked List](https://github.com/brasssmonkey/dsa/blob/main/LL.py): an implementation of a singly-linked list class that helped me test and debug numerous linked list problems. This implementation supports an extra "random" pointer added to each node (I added this to help test the problem [Random Linked List]()). It is most definitely a work in progress: moving forward, I am planning to add sentinels, array representation of a link list (to simplify debugging), and more methods and features. For now, treat this as a bare-bones class for testing/debugging.
 2. [Kth Largest Element](https://github.com/brasssmonkey/dsa/blob/main/KthLargestElement.py): a heap-based class to get nth largest element in a stream. Very helpful problem for learning to think about streams.
