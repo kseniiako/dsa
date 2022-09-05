@@ -41,6 +41,9 @@ This is a pair of functions that allow conversion between standard (root-based) 
 3. [Combination Sum II](https://github.com/brasssmonkey/dsa/blob/main/combinationSumII.py): a super cool backtracking problem! Trains one to think about repeats. I was kinda proud that I could write a workable solution myself... but I was even more excited to learn about waay faster, better approaches from people on the Internet! :)
 4. [Subsets II](https://github.com/brasssmonkey/dsa/blob/main/subsetsII.py): another very fun problem dealing with repeats! There are so many approaches to solving these, it's exciting!
 
+## Graphs
+1. [Surrounded Regions](https://github.com/brasssmonkey/dsa/blob/main/surroundedRegions.py): a pretty straighforward problem that deals with grid exploration and presents many interesting trade-offs.
+
 ## Implementations of Data Structures
 1. [(Random) Singly-Linked List](https://github.com/brasssmonkey/dsa/blob/main/LL.py): an implementation of a singly-linked list class that helped me test and debug numerous linked list problems. This implementation supports an extra "random" pointer added to each node (I added this to help test the problem [Random Linked List]()). It is most definitely a work in progress: moving forward, I am planning to add sentinels, array representation of a link list (to simplify debugging), and more methods and features. For now, treat this as a bare-bones class for testing/debugging.
 2. [Kth Largest Element](https://github.com/brasssmonkey/dsa/blob/main/KthLargestElement.py): a heap-based class to get nth largest element in a stream. Very helpful problem for learning to think about streams.
