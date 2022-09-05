@@ -27,8 +27,6 @@ class Solution:
         transpose(matrix)
         reflect(matrix)
         
-        print(matrix)
-    
     # Where n is the number of cells in the matrix,
     # O(n) is the time complexity (for reversal and transposition)
     # and O(1) is the space complexity (we do not use any additional
