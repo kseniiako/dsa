@@ -18,6 +18,14 @@ class Solution:
                 
         return False
     
+    # Time complexity: O(2^n). There are n+1 ways to split a string
+    # of length n into two parts. At each step, we have a choice to split
+    # or not. In the worst case, we check all the choices and time complexity
+    # is O(2^n).
+
+    # Space complexity is O(n) to hold the function call stack. Max possible recursion 
+    # depth for this problem is O(n).
+    
     def wordBreak(self, s, wordDict):
         # Here we go again! An attempt to efficiently and elegantly solve this problem.
         # Instead of checking letter by letter, we will be checking only for possible
@@ -66,6 +74,14 @@ class Solution:
         # computation is constant-time).
 
         # Space complexity: O(n) for the dp array!
+
+# Here are the constraints we are given for this problem.
+# 1 <= s.length <= 300
+# 1 <= wordDict.length <= 1000
+
+# Given these constraints, it makes sense to choose the third solution
+# over the second one (better time complexity since max dict size is greater
+# than max string length). 
                 
 if __name__ == "__main__":
     my = Solution()
@@ -89,3 +105,7 @@ if __name__ == "__main__":
 {"aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa","ba"}))
 
     #print(my.wordDictHelper({"a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"}))
+
+
+# Idea: breadth-first search and recursion with memoization are also valid solution 
+# options for this problem!
