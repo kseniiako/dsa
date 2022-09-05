@@ -53,6 +53,17 @@ class Solution:
 
         # return a collection of all possible options!
         return output
+
+        # Space complexity: O(n), where n us the length of the string s. This
+        # is the space needed for the recursion stack/function call stack.
+
+        # Time complexity: O(n * 2^n), where n is the length of the string s. This
+        # is the worst-case time complexity where all the possible substrings
+        # are palindromes (id est, the string contains just one letter repeated many
+        # times). If we look at the recursive tree for this case, it was 2^n total
+        # nodes (2^n possible substrings). For each substring, it takes O(n) time to
+        # generate substring and determing if it is a palindrome or not. This gives us
+        # time complexity O(n*2^n).
         
 
 if __name__ == "__main__":
