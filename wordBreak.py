@@ -42,7 +42,30 @@ class Solution:
 
         # Space complexity: O(string_length) to store the dp array.
         # Time complexity: O(string_length * dict_length) to store two nested for loops.
-                         
+    
+    def wordBreakForward(self, s, wordDict):
+        # Trying to implement a similar logic yet going forward instead of backwards.
+
+        # Lenth of dp array: one element for each element in input + one more for base case or
+        # (as in this solution) indicating that we reached the end of input (problem solved!)
+
+        # Solution from Leetcode article.
+
+        dp = [False] * (len(s) + 1)
+        dp[0] = True
+
+        for i in range(1, len(s) + 1):
+            for j in range(i):
+                if dp[j] and s[j:i] in wordDict:
+                    dp[i] = True
+                    break
+        
+        return dp[len(s)]
+
+        # Time complexity: O(n^2) for two nested loops (assuming that substring
+        # computation is constant-time).
+
+        # Space complexity: O(n) for the dp array!
                 
 if __name__ == "__main__":
     my = Solution()
