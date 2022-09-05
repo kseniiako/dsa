@@ -37,6 +37,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 
 ## Backtracking
 1. [Word Search](https://github.com/brasssmonkey/dsa/blob/main/wordSearch.py): a very interesting problem that combines searching a grid (DFS-style seems more intuitive to me) and backtracking. My second, faster solution also uses hashing (tradeoff between speed and memory use).
+2. [Palindrome Partitioning](https://github.com/brasssmonkey/dsa/blob/main/palindromePartitioning.py): a very elegant problem that helped me go over the main ideas/principles of backtracking and remember them better.
 
 ## Implementations of Data Structures
 1. [(Random) Singly-Linked List](https://github.com/brasssmonkey/dsa/blob/main/LL.py): an implementation of a singly-linked list class that helped me test and debug numerous linked list problems. This implementation supports an extra "random" pointer added to each node (I added this to help test the problem [Random Linked List]()). It is most definitely a work in progress: moving forward, I am planning to add sentinels, array representation of a link list (to simplify debugging), and more methods and features. For now, treat this as a bare-bones class for testing/debugging.
