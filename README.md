@@ -95,5 +95,6 @@ This is a pair of functions that allow conversion between standard (root-based) 
 1. [English Ruler](https://github.com/brasssmonkey/dsa/blob/main/EnglishRuler.py): elementary algorithm that prints out an english ruler in your terminal.
 2. [Find The Duplicate Number in an Array Using Floyd's Cycle-Finding Algorithm](https://github.com/brasssmonkey/dsa/blob/main/floydsFindDup.py): a very interesting alternative solution to the findDuplicate problem.
 3. [Fibonacci Numbers 1 (recursive only)](https://github.com/brasssmonkey/dsa/blob/main/goodFib.py), [Fibonacci Numbers 2 (recursive and iterative)](https://github.com/brasssmonkey/dsa/blob/main/fibonacci.py): recursive and iterative versions of an O(n) time memoization-based algorithm to generate nth Fibonacci number. I'm proud of the iterative one, lol!
+4. [Rotate Image](https://github.com/brasssmonkey/dsa/blob/main/rotateImage.py): a problem of the "manipulate a 2D array" kind that is quite straightforward algorithmically; you just gotta buckle up and brute force it :)
 
 ## In Progress
