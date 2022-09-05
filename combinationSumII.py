@@ -115,6 +115,13 @@ class Solution:
         backtracks([], 0, target)
         return output
 
+        # Time complexity:
+        # Up to 2^n combinations could be generated. Sorting is O(nlogn). Total
+        # time complexity is O(2^n).
+
+        # Space complexity: O(n) for the function call stack + O(n) for the current_comb
+        # collection -> O(n) total.
+
         # Here's what happens in this program. Say we have an array of seven 1s, and
         # we need to reach target 5. Every time we call backtrack, we examine
         # all the values at and after current index. We add the first value 
@@ -135,6 +142,8 @@ class Solution:
         # of value k at every index. We also don't have to check the number of ks already present in each 
         # element in combs_set to see whether adding a new k to this element is valid. Thus,
         # the second approach is significantly faster than the first one! (At least by the factor of n^3!)
+
+        # Another great optimized solution option: use a counter!!!
 
 
 
