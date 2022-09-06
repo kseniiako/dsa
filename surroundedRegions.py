@@ -42,9 +42,7 @@ class Solution:
             q = deque([(r, c)])
             while q:
                 row, col = q.popleft()
-                if row in range(max_vert) and \
-                col in range(max_hor) and \
-                (row, col) in to_flip:
+                if (row, col) in to_flip:
                     to_flip.remove((row, col))
                     for r_dir, c_dir in dirs:
                         new_row, new_col = row + r_dir, col + c_dir
