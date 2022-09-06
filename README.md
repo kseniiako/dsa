@@ -43,6 +43,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 
 ## Graphs
 1. [Surrounded Regions](https://github.com/brasssmonkey/dsa/blob/main/surroundedRegions.py): a pretty straighforward problem that deals with grid exploration and presents many interesting trade-offs.
+2. [Rotting Oranges](https://github.com/brasssmonkey/dsa/blob/main/rottingOranges.py): a similar grid exploration problem with a temporal dimension added.
 
 ## Implementations of Data Structures
 1. [(Random) Singly-Linked List](https://github.com/brasssmonkey/dsa/blob/main/LL.py): an implementation of a singly-linked list class that helped me test and debug numerous linked list problems. This implementation supports an extra "random" pointer added to each node (I added this to help test the problem [Random Linked List]()). It is most definitely a work in progress: moving forward, I am planning to add sentinels, array representation of a link list (to simplify debugging), and more methods and features. For now, treat this as a bare-bones class for testing/debugging.
