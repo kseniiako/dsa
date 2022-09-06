@@ -88,7 +88,7 @@ class Solution:
         return output
 
         # Time complexity: O(2^n) possible subsets generated. Generating a subset requires
-        # O(n) calls to backtrack + we need O(n) time to make a ddeep copy of each ready subset.
+        # O(n) calls to backtrack + we need O(n) time to make a deep copy of each ready subset.
         # Total time complexity is O((2n)*2^n) -> O(n*2^n).
         # Space complexity: O(n) for function call stack + O(n) to keep current subset ->
         # total space complexity is O(n).
