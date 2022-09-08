@@ -69,6 +69,12 @@ class Solution:
         # Time complexity: we perform one pass over the array. O(n).
         # Space complexity: only a handful constant-space extra variables
         # are used. O(1).
+
+# Note: a lot of approaches online recommend updating the max_volume variable after every
+# step of moving the smaller wall inwards. But this is just many excessive computations! Until the
+# bottleneck wall becomes bigger than its previous value, there is no need to check the current
+# volume: it will definitely be smaller than the previous volume since both container width
+# and bottleneck wall height are shrinking.
                 
 
 if __name__ == "__main__":
