@@ -76,7 +76,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 4. [Top K Frequent Elements](https://github.com/brasssmonkey/dsa/blob/main/topKFrequentElements.py): a very cool problem that can be approached in a variety of ways. I have two implementations using a heap and bucket sort.
 5. [Pairs of Songs with Total Duration Divisible by 60](https://github.com/brasssmonkey/dsa/blob/main/pairsofSongs.py): the kind of problem that is the flesh and blood of technical interviews for intern/new grad positions: Just Throw In A Hashmap!
 6. [Container With Most Water](https://github.com/brasssmonkey/dsa/blob/main/containerMostWater.py): a fun problem that can be solved using a two-pointers approach with a very greedy flavor to it!
-7. [Remove Duplicates From Sorted Array](https://github.com/brasssmonkey/dsa/blob/main/removeDupsFromSortedArray.py): an easy problem with interesting constraints (O(1) space, updating the input in place).
+7. [Remove Duplicates From Sorted Array](https://github.com/brasssmonkey/dsa/blob/main/removeDupsFromSortedArray.py): an easy problem with interesting constraints (O(1) space, updating the input in place). I tinkered a bit with my initial solution (time vs space tradeoff), it was fun!
 
 ## Quicksort/Quickselect
 1. [K Closest Points to Origin](https://github.com/brasssmonkey/dsa/blob/main/kClosestDivandConq.py): a quickselect-based solution for the problem of finding k smallest distances from [0, 0] for a set of points on a 2D plane. Average runtime is O(n). 

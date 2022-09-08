@@ -58,7 +58,27 @@ class Solution:
     # Note that the slow pointer points to previous value (before it is updated). 
     # Just tweak the rules for updating the slow pointer, and voila! We need even less space :)
 
+    def removeDuplicates2(self, arr):
+        fast = slow = 0
+        max_len = len(arr)
+        while fast < max_len:
+            if arr[fast] != arr[slow]:
+                slow += 1
+                arr[slow] = arr[fast]
+            fast += 1
+
+        print(arr)
+        return slow + 1
+
+        # Unfortunately, with Leetcode testing, this version seems to run slower.
+        # I suppose this is so because of the added cost of calculating value at index slow
+        # each time we compare it to fast. Would be interesting to compare the speeds of the two
+        # functions and see the difference on my machine!
+
 if __name__ == "__main__":
     my = Solution()
     print(my.removeDuplicates([1,1,2]))
     print(my.removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
+
+    print(my.removeDuplicates2([1,1,2]))
+    print(my.removeDuplicates2([0,0,1,1,1,2,2,3,3,4]))
