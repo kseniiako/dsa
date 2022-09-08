@@ -37,7 +37,7 @@ This is a pair of functions that allow conversion between standard (root-based) 
 
 ## Backtracking
 1. [Word Search](https://github.com/brasssmonkey/dsa/blob/main/wordSearch.py): a very interesting problem that combines searching a grid (DFS-style seems more intuitive to me) and backtracking. My second, faster solution also uses hashing (tradeoff between speed and memory use).
-2. [Palindrome Partitioning](https://github.com/brasssmonkey/dsa/blob/main/palindromePartitioning.py): a very elegant problem that helped me go over the main ideas/principles of backtracking and remember them better.
+2. [Palindrome Partitioning](https://github.com/brasssmonkey/dsa/blob/main/palindromePartitioning.py): a very elegant problem that helped me go over the main ideas/principles of backtracking and remember them better. [Here](https://github.com/brasssmonkey/dsa/blob/main/palindromePartitioningRuntime.py) is a detailed explanation of the runtime complexity.
 3. [Combination Sum II](https://github.com/brasssmonkey/dsa/blob/main/combinationSumII.py): a super cool backtracking problem! Trains one to think about repeats. I was kinda proud that I could write a workable solution myself... but I was even more excited to learn about waay faster, better approaches from people on the Internet! :)
 4. [Subsets II](https://github.com/brasssmonkey/dsa/blob/main/subsetsII.py): another very fun problem dealing with repeats! There are so many approaches to solving these, it's exciting! [This file](https://github.com/brasssmonkey/dsa/blob/main/subsetsIIBitMasking.py) contains a textual (no actual code/implementation... yet) explanation of a bit masking approach to solving Subsets II.
 
