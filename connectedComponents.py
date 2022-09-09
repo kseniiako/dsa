@@ -200,9 +200,9 @@ class Solution:
 
         # Time complexity: O(E * a(n)), where a(n) is the inverse Ackermann function.
         # Iterating over every edge requires O(E) operations, and for every operation,
-        # we are performing the combine method, which is O(a(n)), where a(n) is the
-        # inverse Ackermann function. In practice, we may assume a(n) is < 5 for any
-        # practical input size n, and treat a(n) as a constant (getting time complexity
+        # we are performing two find operations and a union operation, which is O(a(n)), 
+        # where a(n) is the inverse Ackermann function. In practice, we may assume a(n) is < 5 
+        # for any practical input size n and treat a(n) as a constant (getting time complexity
         # O(E)).
 
 if __name__ == "__main__":
